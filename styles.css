@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    
+    position: relative;
+}
+
+
+.header {
+   
+
+}
+
+.header .header__box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 30px;
+}
+
+.header__box .header__box-left {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    gap: 8px;
+}
+
+
+.header__box .header__box-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 103px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+
+    height: 110px
+}
+
+.content {
+    display: flex;
+
+}
+
+.content .content__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content__left .content__left-up{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 187px;
+    gap: 57px;
+
+}
+
+.content .content__left .content__left-up .content__left-up-item:first-child{
+    color: white; 
+    font-size: 48px;
+
+}
+
+.content .content__left .content__left-up .content__left-up-item:last-child{
+    border: 5px solid #E93E7D;
+    padding: 10px; 
+    border-radius: 50%;
+    position: absolute;
+    top: 297px;
+    left: 462px;
+}
+
+.content .content__left-center .content__left-center-item:first-child {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content .content__left-center {
+    display: flex;
+    margin-left: 76px;
+    margin-top: 31px;
+    width: 407px;
+    gap:15px
+}
+
+
+
+.content .content__mid .content__mid-top{
+    position: absolute;
+    top: 134px;
+    left: 430px;
+
+    
+    
+}
+
+
+
+.content .content__mid .content__mid-top img{
+    height: 815px;
+    z-index: 1;
+}
+
+
+.content .content__left-center .content__left-center-item{
+    color: white;
+    font-size: 22px;
+}
+
+.content .content__left-bottom {
+    margin-top: 124px;
+    margin-left: 290px;
+    z-index: 2;
+}
+
+.content .content__left-bottom-item{
+    width: 120px;
+    border: 4px solid #E93E7D;
+    padding: 14px;
+}
+
+
+
+.content__right {
+
+}
+
+.content__right .content__right-image{
+    position: absolute;
+    right: 105px;
+    top: 315px;
+    z-index: 2;
+}
+
+.content__right-square{
+    position: absolute;
+    right: 90px;
+    top: 450px;
+    border: 4px solid #E93E7D;
+    width: 330px;
+    height: 330px;
+    z-index: 1;
+}
+
+.content__right-square .content__right-square-item-square{
+    position: absolute;
+    left: 71px;
+    bottom: 51px;
+    background-color: #E93E7D;
+    width: 78px;
+    height: 78px;
+}
+
+.content__right-square .content__right-square-item-circle{
+    position: absolute;
+    right: 99px;
+    bottom: 51px;
+
+    background-color: #E93E7D;
+    border-radius: 50%;
+    width: 78px;
+    height: 78px;
+}
+
+.content__right-square .content__right-square-item-text{
+    position: absolute;
+    left: 78px;
+    bottom: 85px;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.content__right-square .content__right-square-item-play{
+    position: absolute;
+    right: 85px;
+    bottom: 70px;
+   
+}
+.content__right-square .content__right-square-item-play img{
+    width: 30px;
+    height: 40px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+.footer .footer__box{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
+}
+
+.footer .footer__box-left{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    gap: 53px;
+}
+
+
+
+.footer .footer__box-left-item{
+    color: white;
+    
+    
+}
+
+.footer .footer__box-mid {
+    display: flex;
+
+    gap: 11px;
+
+
+}
+
+.footer .footer__box-mid-item{
+    color: white;
+    font-size: 22px;
+
+
+}
+
+
+.footer .footer__box-right{
+    display: flex;
+    color: white;
+    padding-right: 120px;
+    gap: 32px;
+    width: 324px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+
+.footer .footer__box-right-item:last-child {
+
+
+
+}
+
